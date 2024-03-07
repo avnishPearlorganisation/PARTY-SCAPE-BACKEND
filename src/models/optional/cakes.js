@@ -19,7 +19,7 @@ const cakeSchema = new mongoose.Schema(
     },
     for: {
       type: String,
-      required: true,
+      // required: true,
     },
   },
   { timestamps: true }
